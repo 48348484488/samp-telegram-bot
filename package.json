@@ -1,0 +1,14 @@
+{
+  "name": "samp-compiler-bot",
+  "version": "1.0.0",
+  "description": "Bot do Telegram para compilar APK de SA-MP Mobile via GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "axios": "^1.7.0",
+    "form-data": "^4.0.0"
+  }
+}
